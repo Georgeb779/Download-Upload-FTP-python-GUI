@@ -20,7 +20,7 @@ layout = [
     [sg.Text('Username', size=(15, 1)), sg.InputText("")],
     [sg.Text('Password', size=(15, 1)), sg.InputText(
         "", password_char='*')],
-    [sg.Text('Dir FTP', size=(15, 1)), sg.InputText("")],
+    [sg.Text('Dir FTP', size=(15, 1)), sg.InputText("/mnt/DATA/uploadFiles")],
     [sg.Text('Dir Local', size=(15, 1)), sg.InputText(
         ""), sg.FolderBrowse("Directorio")],
     [sg.RButton('Enviar'), sg.RButton('Verificar')]
